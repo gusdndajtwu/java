@@ -1,0 +1,41 @@
+package A_variableBasic;
+
+/* 단락주석  단락 선택 후 (컨+쉬+*) */
+//한줄주석 (컨+쉬+c)  선택 후(컨+쉬+c)
+//doc주석 : calss의 정보를 알려준다. : /** 엔터두번;
+ * @author pc01
+ * @since 2018.10.30
+ * @version 1.0.1
+ */
+ 
+ 대문자 변환: ctrl+shift+x
+ 소문자 변환: ctrl+shift+y
+ 
+ 
+ 
+public class VariableBasic {
+	public static void main(String[] args) {
+  		/*
+			변수의 타입
+				1. 기본형 타입(primitive type) 메모리에 직접저장
+					- boolean, char, byte, short, int, long, float, double
+			
+				2. 참조형 타입(reference type) 메모리에 주소를 저장, 주소를 찾아가야함-4byte
+					- String,
+			
+				3. 종류
+					- 논리형: 조건식과 논릭식 계산에 사용true, false > boolean;
+					- 문자형: 문자를 하나 저장하는데 사용 > char;
+					- 정수형: 정수값을 저장하는데 사용 > byte, short, int, long
+					- 실수형: 실수값을 저장 할 수 있다. > float, double
+					
+				4. 크기
+					- 1byte=8bit  = booleanm, byte
+					- 2byte = char, short
+					- 4byte = int, float
+					- 8byte = long, doubl
+         
+		*/
+	  
+  }
+}
